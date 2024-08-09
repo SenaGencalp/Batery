@@ -1,0 +1,87 @@
+body {
+  text-align: center;
+  background: #ee9ca7;
+  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+}
+h1 {
+  font-size: 5rem;
+  background: #654ea3;
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+  background: linear-gradient(to right, #eaafc8, #654ea3);
+  font-family: "Gupter Poppins", cursive;
+  text-shadow: 3px 0 #eaafc8;
+  margin-top: 5px;
+  padding: 0;
+}
+footer {
+  color: black;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.w {
+  background-image: url("images/drum128.png");
+}
+.a {
+  background-image: url("images/drum2-128.png");
+}
+.s {
+  background-image: url("images/drum3-128.png");
+}
+.d {
+  background-image: url("images/drum4-128.png");
+}
+.j {
+  background-image: url("images/drum5-128.png");
+}
+.k {
+  background-image: url("images/drum-kit128.png");
+}
+.l {
+  background-image: url("images/drum-set128.png");
+}
+.set {
+  margin: 10% auto;
+}
+.pressed {
+  box-shadow: 0 3px 4px #ffdde1;
+  opacity: 0.5;
+}
+.red {
+  color: red;
+}
+.set {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.drum {
+  outline: none;
+  border: 10px solid #654ea3;
+  font-size: 5rem;
+  font-family: "Gupter Poppins", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #d98893;
+  text-shadow: 3px 0 #ffdde1;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: aliceblue;
+  position: relative;
+  display: inline-block;
+}
+.drum-label {
+  font-size: 2rem;
+  font-family: "Gupter", cursive;
+  color: #d98893;
+  text-shadow: 1px 0 #ffdde1;
+  display: block;
+  margin-top: 5px;
+}
